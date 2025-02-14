@@ -12,8 +12,10 @@
     box-sizing: border-box;
 }
 header{
-    margin: 5px 5% 5%;
-    display: flex;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
 }
 #logo h1{
     font-size: 48px;
@@ -23,12 +25,8 @@ header{
     margin-top: 15px;
 }
 nav{
-    font-family: 'Days One',sans-serif;
+    font-family: 'Days One', sans-serif;
     font-size: 20px;
-    text-decoration-line: none;
-    margin-left: 74%;
-    margin-top: 33px;
-    max-width: 40%;
     height: 30px;
 }
 nav a{
