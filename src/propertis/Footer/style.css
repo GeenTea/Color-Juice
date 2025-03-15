@@ -1,0 +1,38 @@
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #242424;
+    color: white;
+}
+.container{
+  padding: 10px;
+  color: #fff;
+}
+.container hr{
+  
+}
+#title{
+  height: 10px;
+}
+.card p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.card ul li{
+  list-style-type: none;
+}
+.card ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+.card-link{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 45px;
+}
+.card-link:hover{
+  font-size: 17px;
+  transition: 500ms;
+}

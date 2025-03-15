@@ -1,22 +1,26 @@
-import './mainStyle.css'
+import './mainStyle.css';
+import { translation, changeLang } from '../../function/languege.js';
 
-const Mainn = () => {
+const Mainn = ({lang}) => {
+
     return (
         <main>
             <div id="Tex-fild">
                 <div id="title">
-                    <h1>COLOR JUICE</h1>
+                    <h1>{translation[lang].home.title}</h1>
                 </div>
                 <div id="text-ads">
-                    <p>Color isn’t just a drink—it’s an explosion of flavor and energy! Refreshing fruity tones, vibrant emotions, and an invigorating boost to power your day. Choose your color, feel the freedom, and enjoy every sip!</p>
+                    <p>{translation[lang].home.text_home_1}</p>
                     <br />
-                    <p>Try Color – a taste that stands out! 🔥🍹</p>
+                    <p>{translation[lang].home.text_home_2}</p> 
                 </div>
             </div>
-
-            <div id='juice'></div>
-            <div id="juice-img">
-                <img src="\src\assets\Fanta-No-Background-Clip-Art(1).png" alt="" />
+            
+            <div id="juice-content">
+                <div id='juice'></div>
+                <div id="juice-img">
+                    <img src="\src\assets\Fanta-No-Background-Clip-Art(1).png" alt="" />
+                </div>
             </div>
         </main>
     )

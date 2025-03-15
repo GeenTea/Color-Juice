@@ -29,6 +29,12 @@ nav{
     font-size: 20px;
     height: 30px;
 }
+.nav-link{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 nav a{
     text-decoration: none;
     color: black;
