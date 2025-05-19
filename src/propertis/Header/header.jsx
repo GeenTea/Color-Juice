@@ -2,7 +2,7 @@ import './style.css';
 import {Outlet, Link} from 'react-router-dom';
 import { translation, changeLang } from '../../function/languege.js';
 
-const Header = ({lang}) => {
+const Header = ({lang = 'en'}) => {
     return (
         <header>
             <div id="logo"><h1>Color</h1></div>
