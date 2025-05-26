@@ -4,6 +4,7 @@ import { BrowserRouter, Route, BrowserRouter as Router, Routes } from 'react-rou
 import Home from './pages/Home/Home.jsx'
 import About from './pages/Home/About.jsx'
 import Header from './propertis/Header/header.jsx'
+import ContactUs from './pages/Home/contact-us.jsx'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
@@ -11,6 +12,7 @@ createRoot(document.getElementById('root')).render(
     <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/about-us" element={<About />}/>
+      <Route path="/contact-us" element={<ContactUs />}/>
     </Routes>
   </BrowserRouter>
 )

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,301;1,301&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/Montserrat-Regular.woff2') format('woff2'),
+         url('/fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.contact1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #000;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+#hrunderh1{
+    width: 50%;
+    height: 1px;
+    background-color: #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#paragraph{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #000;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+.inputLabel{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #000;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: #202020 solid 2px;
+    width: 30%;
+    height: 40px;
+    padding: 10px;
+}
+.messagebox{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #000;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: #202020 solid 2px;
+    width: 30%;
+    height: 200px;
+    padding: 10px;
+    resize: none;
+}
+.submitButton{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    width: 10%;
+    height: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.submitButton:hover{
+    background-color: #333;
+}
+.submitButton:active{
+    transform: scale(0.98);
+    transition: transform 0.1s ease-in-out;
+}

@@ -15,6 +15,14 @@ const translation = {
         about:{
             title: "ABOUT US",
             paragraph_1: "We are the Color Juice team, and we are excited to introduce you to our unique drink! Color Juice is not just a juice; it’s a true explosion of flavors and emotions. We use only the freshest and highest quality ingredients to create the perfect blend of fruits and berries. Every sip is an explosion of freshness and energy that will charge you for the whole day!",
+        },
+        contact: {
+            title: "CONTACT US",
+            paragraph_1: "We are always happy to hear from you! If you have any questions, suggestions, or just want to chat, feel free to reach out to us. You can contact us via email, phone, or through our social media channels. We value your feedback and are here to help you with anything you need.",
+            name: "Your Name",
+            email: "Your Email",
+            message: "Your Message",
+            submit: "Submit"
         }
     },
 
@@ -32,6 +40,14 @@ const translation = {
         about:{
             title: "О НАС",
             paragraph_1: "Мы - команда Color Juice, и мы рады представить вам наш уникальный напиток! Color Juice - это не просто сок, это настоящая феерия вкусов и эмоций. Мы используем только самые свежие и качественные ингредиенты, чтобы создать идеальное сочетание фруктов и ягод. Каждый глоток - это взрыв свежести и энергии, который зарядит вас на весь день!",
+        },
+        contact: {
+            title: "КОНТАКТЫ",
+            paragraph_1: "Мы всегда рады услышать от вас! Если у вас есть вопросы, предложения или просто хотите пообщаться, не стесняйтесь обращаться к нам. Вы можете связаться с нами по электронной почте, телефону или через наши социальные сети. Мы ценим ваш отзыв и готовы помочь вам с любыми вопросами.",
+            name: "Ваше имя",
+            email: "Ваш Email",
+            message: "Ваше сообщение",
+            submit: "Отправить"
         }
     }
 };

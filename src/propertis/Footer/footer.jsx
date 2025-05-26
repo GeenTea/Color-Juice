@@ -8,7 +8,7 @@ const Footer = ({ lang, setLang }) => {
             <div className="container">
                 <div id="title">
                     <h2>Content</h2>
-                    <hr />
+                    <hr id='hrcontainer'/>
                 </div>
                 <div id="contens">
                     <div className="card">
@@ -28,7 +28,15 @@ const Footer = ({ lang, setLang }) => {
                     </div>
                 </div>
             </div>
-            <button type="button" onClick={() => setLang(changeLang(lang))}>Change Language</button>
+            {/* <button type="button" className='changeLangButton' onClick={() => setLang(changeLang(lang))}>Change Language</button> */}
+            <center>
+            <div className="switch">
+                <input id="language-toggle" className="check-toggle check-toggle-round-flat" type="checkbox" onClick={() => setLang(changeLang(lang))} />
+                <label htmlFor="language-toggle"></label>
+                <span className="on">EN</span>
+                <span className="off">RU</span>
+            </div>
+        </center>
         </footer>
     );
 };
