@@ -2,12 +2,6 @@
 
 A simple web project to showcase and manage color palettes.
 
-## Features
-
-- Browse and preview color palettes
-- Add, edit, or remove colors
-- Responsive and user-friendly interface
-
 ## Installation
 
 1. **Clone the repository:**
@@ -38,6 +32,3 @@ A simple web project to showcase and manage color palettes.
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
-## License
-
-[MIT](../LICENSE)
