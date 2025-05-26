@@ -22,6 +22,7 @@ A simple web project to show a produt.
 
 4. Open your browser and go to `http://localhost:3000`
 
-## Contributing
+## Website design
 
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+![alt text](image.png)
