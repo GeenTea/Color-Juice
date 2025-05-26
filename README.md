@@ -1,6 +1,6 @@
 # Color Website
 
-A simple web project to showcase and manage color palettes.
+A simple web project to show a produt.
 
 ## Installation
 
@@ -22,13 +22,8 @@ A simple web project to showcase and manage color palettes.
 
 4. Open your browser and go to `http://localhost:3000`
 
-## Usage
-
-- Explore the available color palettes.
-- Add your own colors or edit existing ones.
-- Use the palettes in your own projects.
-
 ## Contributing
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
 
