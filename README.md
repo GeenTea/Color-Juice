@@ -24,5 +24,11 @@ A simple web project to show a produt.
 
 ## Website design
 
-
+Main page
 ![alt text](image.png)
+
+Contact us
+![alt text](image-1.png)
+
+About us
+![alt text](image-2.png)

@@ -1,3 +1,7 @@
+/* This JavaScript code snippet is defining a translation object that contains language-specific
+translations for a website. The translations are provided for English (en) and Russian (ru)
+languages. Each language has translations for different sections such as header, home, about, and
+contact. */
 import lang from './languegeChangeButton.js';
 
 const translation = {
@@ -52,6 +56,14 @@ const translation = {
     }
 };
 
+/**
+ * The function `changeLang` toggles between English ('en') and Russian ('ru') languages.
+ * @param lang - The `lang` parameter in the `changeLang` function is a string representing the current
+ * language. It is used to determine whether to switch the language from English ('en') to Russian
+ * ('ru') or vice versa.
+ * @returns The function `changeLang` returns either 'ru' or 'en' based on the value of the `lang`
+ * parameter.
+ */
 const changeLang = (lang) => {
     console.log(lang);
 
